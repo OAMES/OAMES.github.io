@@ -4,11 +4,61 @@
   
   
   <entry>
+    <title>天线、松子与英文</title>
+    <link href="/2024/11/30/%E5%A4%A9%E7%BA%BF%E3%80%81%E6%9D%BE%E5%AD%90%E4%B8%8E%E8%8B%B1%E6%96%87/"/>
+    <url>/2024/11/30/%E5%A4%A9%E7%BA%BF%E3%80%81%E6%9D%BE%E5%AD%90%E4%B8%8E%E8%8B%B1%E6%96%87/</url>
+    
+    <content type="html"><![CDATA[<p>想来谈谈近日的琐事。</p><h1>日常</h1><p>自担任了实验室开门一职后，我似乎对生活更上心了些。尽管并非日出而作日落而息那样理想，却也能早起早睡，每天保持约九小时的睡眠（夜十一时至晨八时）。而然这在之前是不可能的。有课的日子尚且早期，没课时则一觉睡到午时。夜晚倒也不会熬太晚，只是总感觉睡不够。之前听闻多睡少睡都不利健康。还是尽量培养一个好习惯吧。<br>前些日子我在琢磨天线的事情。虽然也修过《微波技术与天线》一课，但真到自己落实时，又发现自己不知东西。对着人家的论文做了半个月，每天就是删删改改，却怎么也对不上他们的数据图。待到实在做不下去，不好意思请教同学时，才发现原来果真是自己理解的问题。<br>“不耻下问”这样的词从幼时就学起了，但为什么自己总是没法鼓起勇气向别人请教呢？况且这也不是“下问”，同学们的确比我更聪慧、更努力。但我总是不爱接触他人，尽量和别人撇清关系。我到底是在害怕什么呢？<br>不过我好在不至于死板到坚持自己解决。进来几星期日日进出图书馆，《天线（第三版）》倒也翻得熟了一些。只是还不够。但请教总归是更快一些的。<br>说起书来，我其实也没怎么享受过专业书。不能像读杂书那样痛快。在漫无目的地读时，就更不能集中了。<br>虽然有时漫无目的倒也不尽是坏事。因为闲逛，在书馆里发现一本奇书。理查德·莱恩的《数字信号处理之我想》（<em>Understanding Digital Signal Processing by Richard G. Lyons</em>）该书细致有趣，实在是难得一见。尽管修过这门课，但在读的时候还是觉得大师的笔下更能生知之花。<br>不过我仅读完一章，因为其他事，便草草掩卷了。想来还是有些可惜，得找个时间继续读下去。<br>最后，在校园漫步时，发现了一枚别致的松果。虽然松树和松果处处可见。但因这枚长得尤其可爱，让人爱不释手，就带回寝室了。日后也许能做点什么。<br>似乎也没什么大事，就先写到这里。再往下谈谈英文学习吧。</p><hr><h1>英文学习</h1><p>It seems I easily get bored when playing games recently. So, guess I have to put them away for some time.</p><h2 id="Harry-Potter">Harry Potter</h2><p>I have finished <em>Harry Potter and the Chamber of Secrets</em> yestday. But to be honestly, it does’n suit me. This volme is great. But I just can’t have any fun from it. When it comes to <em>Harry Potter and the Philosopher’s stone</em>, I can remember Snape and other funny stuff, which I can never get from this one.<br>Still, there are some good plots.<br>I’d like how they find out <em>I am lord Voldemort</em> is as same characters as the name <em>Tom Marvolo Riddle</em>. And I can’t believe both Ginny Wesley and Weeping Myrtle are fond of Harry. It would be a typical love comedy if J.K.Rowling is a Japanese.<br>By the way, the cover just spoiled Everything. I will give it a 0/5 rating, only for the cover design.</p><h2 id="Grand-Blue-Dreaming">Grand Blue Dreaming</h2><p>It is a <strong>masterpiece</strong>. If you haven’t read it, just go and watch.<br>I can’t believe how addicted I am to manga. Maybe I should learn Japanese some day…<br>Don’t know when can I find something like this once I have finished it. And that seems not far, considering I have read 72/98 chapters.<br>I remember feeling lost after finishing both <em>Laputa: castle in the sky</em> and  <em>Super Mario Odyssey</em>.<br>Good days pass like the wind.</p><h2 id="Hengoku-no-schwester">Hengoku no schwester</h2><p>JUST READ IT!</p><h2 id="Evangelion">Evangelion</h2><p>Good one. I like how everyone smiles as if nothing’s wrong in the Opening Song, but It’s totally different in the main episode.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>我的生活</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>琐事</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>ISAC</title>
+    <link href="/2024/11/30/ISAC/"/>
+    <url>/2024/11/30/ISAC/</url>
+    
+    <content type="html"><![CDATA[<h1>Introduction</h1><p>所有的引言都是在研究苹果。<br>研究水果→研究作为经典水果之一的苹果【有足够的前人研究基础，可以做综述】→研究苹果中的最新品种黄金维纳斯【是新兴的前沿问题，相比红富士黄元帅之类，还没有被研究透，容易发现前人研究的空白之处】<br>然后，以具体的问题为核心去收集文献和概述文献，以保证学术思路的连贯性，免得陷入张三说东、李四说西、而我们不是东西……不是，不知东西( ﾟ∀。)7<br>比如张三李四王五赵六和陈七，都以黄金维纳斯作为研究对象<br>最早关注到黄金维纳斯苹果的是张三，那么就从张三说起，他怎么会关注到黄金维纳斯、认为研究这种苹果有什么意义，最后，作为早期研究，他有哪些问题没有说清楚<br>李四和王五是受到张三的启发，顺着他说的，讨论到了标准的黄金维纳斯应该说什么样的，他们一个关注到了黄金维纳斯为什么是金黄色、另一个在考虑黄金维纳斯表面的雀斑是哪里来的，但是，还没有涉及这种苹果的口感和气味问题<br>关于黄金维纳斯的气味，主要是赵六和陈七在研究，他们认为黄金维纳斯的口感应该是脆甜的、香气比其他苹果更加浓郁，不过，只是一般性的归纳，还缺乏准确的数据测定黄金维纳斯的甜度和香味<br>最后，在完成上面的概括和总结的基础上，提出自己的看法。<br>By HSIOEyw</p><ol><li>A Beam-scannable photonic THz-ISAC system based on Risley prisms<br>光学透镜。载波300GHz。Beam-scannable允许天线阵列或光学系统在不改变物理位置的情况下，通过电子或机械方式改变波束的方向。<br>问题：为了消除path loss，太赫兹连接必须直线连接。如果采用较窄的beamwidth（半功率角），那么可以减轻多径效应和clutter effect，但同时也会导致beam位置偏差的影响大大增强（因为覆盖的不够广了）。最终导致THz通信和雷达感知都被影响。因此，本文主要研究的问题就是在ISAC中，如何控制beam方向。<br>本文观点：在THz beam steering中，太赫兹透镜（lenses）所提供的bandwidth最好用。因为这样可以充分挖掘到太赫兹的超宽带。<br>前人已经研究了Risley透镜在THz通信中的作用，而本文主要研究该透镜在THz-ISAC中的作用。实验里，（1）a dual-chirp-based integrated<br>waveform is used to simultaneously realize 20 Gbps<br>quadrature phase shift keying (QPSK) communication<br>（2）1.5 cm range resolution, with a 40 deg FoV.</li><li></li></ol>]]></content>
+    
+    
+    <categories>
+      
+      <category>我的学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>ISAC</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Understanding DSP 3rd Edition</title>
     <link href="/2024/11/22/DSP/"/>
     <url>/2024/11/22/DSP/</url>
     
-    <content type="html"><![CDATA[<h1>A notebook for Understanding DSP 3rd Edition</h1><h2 id="Chapter-1-Discrete-sequences-and-Systems">Chapter 1 Discrete sequences and Systems</h2><p>A moving averager is equal to a low pass filter.</p><p>$$<br>E=mc^2<br>$$</p>]]></content>
+    <content type="html"><![CDATA[<h1>A notebook for Understanding DSP 3rd Edition</h1><h2 id="Chapter-1-Discrete-sequences-and-Systems">Chapter 1 Discrete sequences and Systems</h2><p>A moving averager is equal to a low pass filter.</p>]]></content>
     
     
     <categories>

@@ -19,22 +19,22 @@
   <meta name="author" content="Oames Amcaso">
   <meta name="keywords" content="">
   
-    <meta name="description" content="A notebook for Understanding DSP 3rd Edition Chapter 1 Discrete sequences and Systems A moving averager is equal to a low pass filter.">
+    <meta name="description" content="Introduction 所有的引言都是在研究苹果。 研究水果→研究作为经典水果之一的苹果【有足够的前人研究基础，可以做综述】→研究苹果中的最新品种黄金维纳斯【是新兴的前沿问题，相比红富士黄元帅之类，还没有被研究透，容易发现前人研究的空白之处】 然后，以具体的问题为核心去收集文献和概述文献，以保证学术思路的连贯性，免得陷入张三说东、李四说西、而我们不是东西……不是，不知东西( ﾟ∀。)7 比如张三">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Understanding DSP 3rd Edition">
-<meta property="og:url" content="https://oames.github.io/2024/11/22/DSP/index.html">
+<meta property="og:title" content="ISAC">
+<meta property="og:url" content="https://oames.github.io/2024/11/30/ISAC/index.html">
 <meta property="og:site_name" content="Oames&#39;s Blog">
-<meta property="og:description" content="A notebook for Understanding DSP 3rd Edition Chapter 1 Discrete sequences and Systems A moving averager is equal to a low pass filter.">
+<meta property="og:description" content="Introduction 所有的引言都是在研究苹果。 研究水果→研究作为经典水果之一的苹果【有足够的前人研究基础，可以做综述】→研究苹果中的最新品种黄金维纳斯【是新兴的前沿问题，相比红富士黄元帅之类，还没有被研究透，容易发现前人研究的空白之处】 然后，以具体的问题为核心去收集文献和概述文献，以保证学术思路的连贯性，免得陷入张三说东、李四说西、而我们不是东西……不是，不知东西( ﾟ∀。)7 比如张三">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-11-22T04:48:42.000Z">
-<meta property="article:modified_time" content="2024-11-22T09:13:56.744Z">
+<meta property="article:published_time" content="2024-11-30T06:37:54.000Z">
+<meta property="article:modified_time" content="2024-11-30T08:57:55.023Z">
 <meta property="article:author" content="Oames Amcaso">
-<meta property="article:tag" content="DSP">
+<meta property="article:tag" content="ISAC">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Understanding DSP 3rd Edition - Oames&#39;s Blog</title>
+  <title>ISAC - Oames&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -202,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Understanding DSP 3rd Edition"></span>
+            <span id="subtitle" data-typed-text="ISAC"></span>
           
         </div>
 
@@ -213,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-11-22 12:48" pubdate>
-          2024年11月22日 下午
+        <time datetime="2024-11-30 14:37" pubdate>
+          2024年11月30日 下午
         </time>
       </span>
     
@@ -225,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1 字
+          698 字
         
       </span>
     
@@ -236,7 +236,7 @@
         
         
         
-          1 分钟
+          6 分钟
         
       </span>
     
@@ -273,14 +273,32 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Understanding DSP 3rd Edition</h1>
+            <h1 id="seo-header">ISAC</h1>
             
             
               <div class="markdown-body">
                 
-                <h1>A notebook for Understanding DSP 3rd Edition</h1>
-<h2 id="Chapter-1-Discrete-sequences-and-Systems">Chapter 1 Discrete sequences and Systems</h2>
-<p>A moving averager is equal to a low pass filter.</p>
+                <h1>Introduction</h1>
+<p>所有的引言都是在研究苹果。<br>
+研究水果→研究作为经典水果之一的苹果【有足够的前人研究基础，可以做综述】→研究苹果中的最新品种黄金维纳斯【是新兴的前沿问题，相比红富士黄元帅之类，还没有被研究透，容易发现前人研究的空白之处】<br>
+然后，以具体的问题为核心去收集文献和概述文献，以保证学术思路的连贯性，免得陷入张三说东、李四说西、而我们不是东西……不是，不知东西( ﾟ∀。)7<br>
+比如张三李四王五赵六和陈七，都以黄金维纳斯作为研究对象<br>
+最早关注到黄金维纳斯苹果的是张三，那么就从张三说起，他怎么会关注到黄金维纳斯、认为研究这种苹果有什么意义，最后，作为早期研究，他有哪些问题没有说清楚<br>
+李四和王五是受到张三的启发，顺着他说的，讨论到了标准的黄金维纳斯应该说什么样的，他们一个关注到了黄金维纳斯为什么是金黄色、另一个在考虑黄金维纳斯表面的雀斑是哪里来的，但是，还没有涉及这种苹果的口感和气味问题<br>
+关于黄金维纳斯的气味，主要是赵六和陈七在研究，他们认为黄金维纳斯的口感应该是脆甜的、香气比其他苹果更加浓郁，不过，只是一般性的归纳，还缺乏准确的数据测定黄金维纳斯的甜度和香味<br>
+最后，在完成上面的概括和总结的基础上，提出自己的看法。<br>
+By HSIOEyw</p>
+<ol>
+<li>A Beam-scannable photonic THz-ISAC system based on Risley prisms<br>
+光学透镜。载波300GHz。Beam-scannable允许天线阵列或光学系统在不改变物理位置的情况下，通过电子或机械方式改变波束的方向。<br>
+问题：为了消除path loss，太赫兹连接必须直线连接。如果采用较窄的beamwidth（半功率角），那么可以减轻多径效应和clutter effect，但同时也会导致beam位置偏差的影响大大增强（因为覆盖的不够广了）。最终导致THz通信和雷达感知都被影响。因此，本文主要研究的问题就是在ISAC中，如何控制beam方向。<br>
+本文观点：在THz beam steering中，太赫兹透镜（lenses）所提供的bandwidth最好用。因为这样可以充分挖掘到太赫兹的超宽带。<br>
+前人已经研究了Risley透镜在THz通信中的作用，而本文主要研究该透镜在THz-ISAC中的作用。实验里，（1）a dual-chirp-based integrated<br>
+waveform is used to simultaneously realize 20 Gbps<br>
+quadrature phase shift keying (QPSK) communication<br>
+（2）1.5 cm range resolution, with a 40 deg FoV.</li>
+<li></li>
+</ol>
 
                 
               </div>
@@ -314,7 +332,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/DSP/" class="print-no-link">#DSP</a>
+        <a href="/tags/ISAC/" class="print-no-link">#ISAC</a>
       
     </div>
   
@@ -326,8 +344,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Understanding DSP 3rd Edition</div>
-      <div>https://oames.github.io/2024/11/22/DSP/</div>
+      <div>ISAC</div>
+      <div>https://oames.github.io/2024/11/30/ISAC/</div>
     </div>
     <div class="license-meta">
       
@@ -339,7 +357,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年11月22日</div>
+          <div>2024年11月30日</div>
         </div>
       
       
@@ -371,9 +389,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/11/30/ISAC/" title="ISAC">
+                      <a href="/2024/11/30/%E5%A4%A9%E7%BA%BF%E3%80%81%E6%9D%BE%E5%AD%90%E4%B8%8E%E8%8B%B1%E6%96%87/" title="天线、松子与英文">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">ISAC</span>
+                        <span class="hidden-mobile">天线、松子与英文</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -381,8 +399,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/11/21/modulation/" title="matlab for digital modulation">
-                        <span class="hidden-mobile">matlab for digital modulation</span>
+                      <a href="/2024/11/22/DSP/" title="Understanding DSP 3rd Edition">
+                        <span class="hidden-mobile">Understanding DSP 3rd Edition</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
