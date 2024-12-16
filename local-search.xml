@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title>UAV</title>
-    <link href="/2024/12/15/UAV/"/>
-    <url>/2024/12/15/UAV/</url>
-    
-    <content type="html"><![CDATA[<h2 id="1-PA-DMPC-UAV-Ad-Hoc">1. PA-DMPC-UAV-Ad-Hoc</h2><p>(1)   项目地址：<a href="https://github.com/brian00715/PA-DMPC-UAV-Ad-Hoc">https://github.com/brian00715/PA-DMPC-UAV-Ad-Hoc</a></p><p>(2)   项目平台：Linux系统+ROS+PX4仿真平台</p><p>(3)   项目介绍：实现了无人机ad-hoc网络中PA-DMPC方法（Predictive Adaptive Distributed Model Predictive Control）与PX4-setPoint方法的对比。</p><p>结论是在相同信道容量时，PA-DMPC的耗能更少。</p><p>(4)   复现进度：已经搭建好平台，成功运行了项目代码。但是不知道作者的gif结果图是怎么调出来的。</p><p></p><p>这是运行代码后的样子。</p><p>(5)   存在困惑：</p><p>a)     PA-DMPC方法和ad-hoc啥关系？</p><p>b)     信道容量是怎么量化的？</p><p>c)     代码不易读，没有论文支撑很多地方不理解。</p><p></p><h2 id="2-Simulation-Platform-for-UAV-network">2.  Simulation-Platform-for-UAV-network</h2><p>(1)   项目地址：<a href="https://github.com/Zihao-Howard-Zhou/Simulation-Platform-for-UAV-network">https://github.com/Zihao-Howard-Zhou/Simulation-Platform-for-UAV-network</a></p><p>(2)   项目平台：python+simpy</p><p>(3)   项目介绍：和协议相关。这个项目可以实现多种无人机网络的仿真，包括网络层、MAC层和物理层。</p><p>(4)   复现进度：可以正常跑。</p><p>这是跑出来的样子。</p><p>(5)   存在困惑：还没仔细看这个项目。</p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>天线、松子与英文</title>
     <link href="/2024/11/30/%E5%A4%A9%E7%BA%BF%E3%80%81%E6%9D%BE%E5%AD%90%E4%B8%8E%E8%8B%B1%E6%96%87/"/>
     <url>/2024/11/30/%E5%A4%A9%E7%BA%BF%E3%80%81%E6%9D%BE%E5%AD%90%E4%B8%8E%E8%8B%B1%E6%96%87/</url>
