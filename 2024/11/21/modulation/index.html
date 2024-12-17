@@ -30,7 +30,7 @@
 <meta property="og:image" content="https://img.oames.us.kg/2411md1/BPSK.png">
 <meta property="og:image" content="https://img.oames.us.kg/2411md1/QPSK.png">
 <meta property="article:published_time" content="2024-11-21T09:38:00.000Z">
-<meta property="article:modified_time" content="2024-12-16T10:31:49.187Z">
+<meta property="article:modified_time" content="2024-12-17T08:08:17.174Z">
 <meta property="article:author" content="Oames Amcaso">
 <meta property="article:tag" content="matlab">
 <meta name="twitter:card" content="summary_large_image">
@@ -417,6 +417,28 @@ How can we fix that? Well, I don’t know yet…</p>
   
     <article id="comments" lazyload>
       
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"R8wIt9TidaKnNTEo76Zna65H-MdYXbMMI","appKey":"gy2pHPE8aEMIDQR7U6cQcmvS","path":"window.location.pathname","placeholder":"¡Hola!","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
 
     </article>
   

@@ -27,7 +27,7 @@
 <meta property="og:description" content="科研学习 本文将会简单介绍一些通信领域的科研方法和ISAC论文简述。 如何查综述 查找 综述类文献 的方法有三种：   直接用内容关键字+“overview、survey”这样的词，在各大数据库、google中直接搜索。这种方法的优点是简单。缺点有二：第一，有时搜索的内容比较多，容易陷入文献之海；第二，有些综述类的文献并没有overview、survey这样的字眼，容易把这样的文献漏掉。   直接">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-11-30T06:37:54.000Z">
-<meta property="article:modified_time" content="2024-12-15T14:59:30.186Z">
+<meta property="article:modified_time" content="2024-12-17T08:08:10.647Z">
 <meta property="article:author" content="Oames Amcaso">
 <meta property="article:tag" content="ISAC">
 <meta name="twitter:card" content="summary_large_image">
@@ -561,6 +561,28 @@ on LFM-PSK Waveform</strong>貌似是在这篇的基础上的延申，但粗看�
   
     <article id="comments" lazyload>
       
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"R8wIt9TidaKnNTEo76Zna65H-MdYXbMMI","appKey":"gy2pHPE8aEMIDQR7U6cQcmvS","path":"window.location.pathname","placeholder":"¡Hola!","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":false,"serverURLs":"","emojiCDN":null,"emojiMaps":null,"enableQQ":false},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
 
     </article>
   
