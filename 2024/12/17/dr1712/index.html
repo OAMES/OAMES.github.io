@@ -19,27 +19,24 @@
   <meta name="author" content="Oames Amcaso">
   <meta name="keywords" content="">
   
-    <meta name="description" content="1. PA-DMPC-UAV-Ad-Hoc (1)   项目地址：https:&#x2F;&#x2F;github.com&#x2F;brian00715&#x2F;PA-DMPC-UAV-Ad-Hoc (2)   项目平台：Linux系统+ROS+PX4仿真平台 (3)   项目介绍：实现了无人机ad-hoc网络中PA-DMPC方法（Predictive Adaptive Distributed Model Predictive Co">
+    <meta name="description" content="虽然不如标题那般夸张，但想来也是有些可写的。 近来我的劲头很足。一切都如此地顺心，想来这和实验室是拖不了干系的。说来奇怪，最近我尤其偏爱实验室，仿佛只要在实验室独处，身体就可以按照计划做事，在别处则往往以我的堕落结束。不知这是不是去年备赛经历的后遗症，那时一人在实验室调试无线电设备，竟然不会觉得孤独，因为每时每刻都有新问题待解决。这种感觉和在题海中作业何其相似，却又比刷题有意思多，成就感也更大些。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="UAV">
-<meta property="og:url" content="https://oames.us.kg/2024/12/15/UAV/index.html">
+<meta property="og:title" content="乘风起与我的九万里">
+<meta property="og:url" content="https://oames.us.kg/2024/12/17/dr1712/index.html">
 <meta property="og:site_name" content="Oames&#39;s Blog">
-<meta property="og:description" content="1. PA-DMPC-UAV-Ad-Hoc (1)   项目地址：https:&#x2F;&#x2F;github.com&#x2F;brian00715&#x2F;PA-DMPC-UAV-Ad-Hoc (2)   项目平台：Linux系统+ROS+PX4仿真平台 (3)   项目介绍：实现了无人机ad-hoc网络中PA-DMPC方法（Predictive Adaptive Distributed Model Predictive Co">
+<meta property="og:description" content="虽然不如标题那般夸张，但想来也是有些可写的。 近来我的劲头很足。一切都如此地顺心，想来这和实验室是拖不了干系的。说来奇怪，最近我尤其偏爱实验室，仿佛只要在实验室独处，身体就可以按照计划做事，在别处则往往以我的堕落结束。不知这是不是去年备赛经历的后遗症，那时一人在实验室调试无线电设备，竟然不会觉得孤独，因为每时每刻都有新问题待解决。这种感觉和在题海中作业何其相似，却又比刷题有意思多，成就感也更大些。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://img.oames.us.kg/2412md1/result1.png">
-<meta property="og:image" content="https://img.oames.us.kg/2412md1/UAV-result.gif">
-<meta property="og:image" content="https://img.oames.us.kg/2412md1/result2.png">
-<meta property="og:image" content="https://img.oames.us.kg/2412md1/result3.png">
-<meta property="article:published_time" content="2024-12-15T15:10:24.000Z">
-<meta property="article:modified_time" content="2024-12-17T02:43:55.025Z">
+<meta property="og:image" content="https://img.oames.us.kg/2412md1/flower.jpg">
+<meta property="article:published_time" content="2024-12-17T02:48:51.000Z">
+<meta property="article:modified_time" content="2024-12-17T03:35:04.863Z">
 <meta property="article:author" content="Oames Amcaso">
-<meta property="article:tag" content="UAV">
+<meta property="article:tag" content="琐事">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://img.oames.us.kg/2412md1/result1.png">
+<meta name="twitter:image" content="https://img.oames.us.kg/2412md1/flower.jpg">
   
   
   
-  <title>UAV - Oames&#39;s Blog</title>
+  <title>乘风起与我的九万里 - Oames&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -205,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="UAV"></span>
+            <span id="subtitle" data-typed-text="乘风起与我的九万里"></span>
           
         </div>
 
@@ -216,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-12-15 23:10" pubdate>
-          2024年12月15日 晚上
+        <time datetime="2024-12-17 10:48" pubdate>
+          2024年12月17日 上午
         </time>
       </span>
     
@@ -228,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          288 字
+          817 字
         
       </span>
     
@@ -239,7 +236,7 @@
         
         
         
-          3 分钟
+          7 分钟
         
       </span>
     
@@ -276,33 +273,24 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">UAV</h1>
+            <h1 id="seo-header">乘风起与我的九万里</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="1-PA-DMPC-UAV-Ad-Hoc">1. PA-DMPC-UAV-Ad-Hoc</h2>
-<p>(1)   项目地址：<a target="_blank" rel="noopener" href="https://github.com/brian00715/PA-DMPC-UAV-Ad-Hoc">https://github.com/brian00715/PA-DMPC-UAV-Ad-Hoc</a></p>
-<p>(2)   项目平台：Linux系统+ROS+PX4仿真平台</p>
-<p>(3)   项目介绍：实现了无人机ad-hoc网络中PA-DMPC方法（Predictive Adaptive Distributed Model Predictive Control）与PX4-setPoint方法的对比。结论是在相同信道容量时，PA-DMPC的耗能更少。</p>
-<p>(4)   复现进度：已经搭建好平台，成功运行了项目代码。但是不知道作者的gif结果图是怎么调出来的。</p>
-<p><img src="https://img.oames.us.kg/2412md1/result1.png" srcset="/img/loading.gif" lazyload alt="我跑的结果"></p>
-<p><img src="https://img.oames.us.kg/2412md1/UAV-result.gif" srcset="/img/loading.gif" lazyload alt="作者贴的示意图"></p>
-<p>(5)   存在困惑：</p>
-<p>a)     PA-DMPC方法和ad-hoc啥关系？</p>
-<p>b)     信道容量是怎么量化的？</p>
-<p>c)     代码不易读，没有论文支撑很多地方不理解。</p>
-<h3 id="补充">补充</h3>
-<p>鸽了。光研究路由算法了。这个以后再看吧。苦了我装一个周末的linux+环境。</p>
-<h2 id="2-Simulation-Platform-for-UAV-network">2.  Simulation-Platform-for-UAV-network</h2>
-<p>(1)   项目地址：<a target="_blank" rel="noopener" href="https://github.com/Zihao-Howard-Zhou/Simulation-Platform-for-UAV-network">https://github.com/Zihao-Howard-Zhou/Simulation-Platform-for-UAV-network</a></p>
-<p>(2)   项目平台：python+simpy</p>
-<p>(3)   项目介绍：和协议相关。这个项目可以实现多种无人机网络的仿真，包括网络层、MAC层和物理层。</p>
-<p>(4)   复现进度：可以正常跑。<br>
-<img src="https://img.oames.us.kg/2412md1/result2.png" srcset="/img/loading.gif" lazyload alt="我跑出来的结果"><br>
- <br>
-<img src="https://img.oames.us.kg/2412md1/result3.png" srcset="/img/loading.gif" lazyload alt="无人机网络放大图"></p>
-<p>(5)   存在困惑：还没仔细看这个项目。</p>
+                <p>虽然不如标题那般夸张，但想来也是有些可写的。</p>
+<p>近来我的劲头很足。一切都如此地顺心，想来这和实验室是拖不了干系的。说来奇怪，最近我尤其偏爱实验室，仿佛只要在实验室独处，身体就可以按照计划做事，在别处则往往以我的堕落结束。不知这是不是去年备赛经历的后遗症，那时一人在实验室调试无线电设备，竟然不会觉得孤独，因为每时每刻都有新问题待解决。这种感觉和在题海中作业何其相似，却又比刷题有意思多，成就感也更大些。我羡慕那些野外求生的人。想到他们与世独立，只要活着，每一步都是在征服自然。这种感觉可能是共通的。</p>
+<p>说来征服自然，我为前些日子的松果做了枝叶，装瓶后倒也像模像样。实在美丽。</p>
+<p><img src="https://img.oames.us.kg/2412md1/flower.jpg" srcset="/img/loading.gif" lazyload alt="木之花"></p>
+<p>前些日子我读了贵志佑介的《天使的呢喃》，实在被其神奇的想象力所征服。虫与恐惧的主题实在新奇，让人不由得想起了血源诅咒中血疗中被不净的虫所污染的血液，还有曾经听说过的文化“寄生虫”理论（我还为此作过一篇名为《句法·和平·虫》的小文）。贵志佑介一向不是那种常规的作者。他的作品总是以独特的想象力而鹤立鸡群，也建立了我对日本作品的第一印象。日本的小说就应该像这样，才能称得上过瘾。</p>
+<p>说到过瘾，还有一部作品也让我爱不释手。吉田修一的《国宝》。这可真是一部巨作。厚重的背景、独特的选材和无常的故事，真有种在读《红楼梦》的感觉。而这位吉田修一在搬出这部《国宝》之前，却一直都在通俗文学中踏步。尽管过去的作品，如《怒》和《恶人》，也都称得上是精彩，但在这部《国宝》面前，也只能显得暗淡几分。</p>
+<p>噢，想来还有A24出版的《异教徒(heretic)》也值得一说。电影用九十分钟，将宗教和控制的一体性娓娓道来，除了最后略让人失望，其余时刻都可以称得上精彩。电影的拍法十分讲究，镜头调度用心，画面古典；剧本也很扎实，前后的呼应叫人大呼精彩，值得一看。</p>
+<p>好像值得说道的仅此而已。下面写写我今日学到的东西。</p>
+<h2 id="双拼">双拼</h2>
+<p>我参考了<a target="_blank" rel="noopener" href="https://flypy.com/">小鹤双拼</a>的方案，这种拼写技术实在神奇，唯有自己上手才能体会到。</p>
+<h2 id="Ubuntu">Ubuntu</h2>
+<p>为了毕业设计，我特意装了linux系统。这个系统尤其好玩，而且对电脑的电池管理尤为优秀。为我的电脑延长了半个小时的续航。</p>
+<p>我还配置了Vim。这个更是好玩，在<a target="_blank" rel="noopener" href="https://vimawesome.com/">Vim Awesome</a>里浏览插件，然后定制化自己的Vim，让人非常开心。我曾着迷于在<a target="_blank" rel="noopener" href="https://www.nexusmods.com/darksouls">Nexus</a>里找黑暗之魂的mod，现在在<a target="_blank" rel="noopener" href="https://vimawesome.com/">Vim Awesome</a>里找vim插件，有何不同？</p>
 
                 
               </div>
@@ -321,7 +309,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E6%88%91%E7%9A%84%E5%AD%A6%E4%B9%A0/" class="category-chain-item">我的学习</a>
+  <a href="/categories/%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB/" class="category-chain-item">我的生活</a>
   
   
 
@@ -336,7 +324,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/UAV/" class="print-no-link">#UAV</a>
+        <a href="/tags/%E7%90%90%E4%BA%8B/" class="print-no-link">#琐事</a>
       
     </div>
   
@@ -348,8 +336,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>UAV</div>
-      <div>https://oames.us.kg/2024/12/15/UAV/</div>
+      <div>乘风起与我的九万里</div>
+      <div>https://oames.us.kg/2024/12/17/dr1712/</div>
     </div>
     <div class="license-meta">
       
@@ -361,7 +349,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年12月15日</div>
+          <div>2024年12月17日</div>
         </div>
       
       
@@ -393,18 +381,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/12/17/dr1712/" title="乘风起与我的九万里">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">乘风起与我的九万里</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/11/30/%E5%A4%A9%E7%BA%BF%E3%80%81%E6%9D%BE%E5%AD%90%E4%B8%8E%E8%8B%B1%E6%96%87/" title="天线、松子与英文">
-                        <span class="hidden-mobile">天线、松子与英文</span>
+                      <a href="/2024/12/15/UAV/" title="UAV">
+                        <span class="hidden-mobile">UAV</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
